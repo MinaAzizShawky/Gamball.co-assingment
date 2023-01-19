@@ -1,0 +1,244 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 10px 30px;
+}
+/* Style the navigation bar */
+.navbar {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  justify-content: space-between;
+}
+
+/* Style the logo */
+.navbar a.logo {
+  display: flex;
+  align-items: center;
+}
+
+/* Style the logo image */
+.navbar .logo img {
+  height: 100px;
+  margin-right: 36px;
+}
+
+/* Style the navigation bar links */
+.navbar a {
+  color: black;
+  padding: 14px 20px;
+  text-decoration: none;
+  text-align: center;
+}
+
+/* Style the middle links */
+.navbar a.middle {
+  margin: 0 10px;
+}
+
+/* style the button */
+input[type="submit"] {
+  background-color: black;
+  color: white;
+  font-size: 14px;
+  height: 58px;
+  width: 102px;
+  border-radius: 11px;
+  padding: 10px;
+}
+
+input[value="Install App"]:hover {
+  background-color: #ffcf48;
+  color: black;
+}
+/* Change color on hover */
+.navbar a:hover {
+  color: gray;
+}
+
+/* Column container */
+.row1 {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* Sidebar/left column */
+.side {
+  width: 600px;
+  background-color: transparent;
+  padding: 20px;
+}
+.side .h1 {
+  font-family: Recoleta, Georgia, sans-serif;
+  font-size: 49px;
+  font-weight: 900px;
+}
+/* Main column */
+.main {
+  width: 200px;
+  height: 600px;
+  background-color: white;
+  padding: 20px;
+}
+.buttonImg {
+  background-color: black;
+  color: white;
+  border-radius: 7px;
+  cursor: pointer;
+  width: 300px;
+  height: 73px;
+}
+
+.buttonImg img {
+  width: 285px;
+}
+
+.smallButton {
+  width: 100px;
+  height: 100px;
+}
+
+.side .mainP {
+  font-size: 29px;
+}
+.main img {
+  height: 600px;
+  width: 500%;
+}
+
+.second-section {
+  text-align: center;
+  margin: 70px;
+  width: inherit;
+  border: 3px solid black;
+  border-radius: 10px;
+  padding: 78px;
+}
+
+.second-section .center-text h1 {
+  font-size: 64px;
+}
+#container {
+  background-color: transparent;
+  width: 100%;
+  height: 400px;
+  border: none;
+  text-align: center;
+}
+#container p {
+  font-size: 20px;
+  margin-top: -20px;
+}
+#container hr {
+  opacity: 0.5;
+}
+#container h1 {
+  font-weight: bold;
+  font-size: 60px;
+}
+
+.box {
+  display: inline-block;
+  width: 33%;
+}
+
+.percantage {
+  font-size: 60px;
+  font-weight: bold;
+}
+
+#container .box p {
+  margin-top: 10px;
+}
+footer {
+  padding-top: 140px;
+  background-color: rgba(11, 10, 10, 0.982);
+  width: 100%;
+  height: 600px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.row2 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo-column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+form {
+  margin-top: 20px;
+}
+
+input[type="text"] {
+  width: 80%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+}
+
+.container .row2 form input[type="submit"] {
+  width: 40%;
+  background-color: #ffcf48;
+  color: black;
+  padding: 14px 20px;
+  margin-bottom: 70px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.container .row2 form input[type="submit"]:hover {
+  outline: 10px;
+  width: 40%;
+  background-color: #ffcf48;
+  color: black;
+  padding: 14px 20px;
+  margin-bottom: 70px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.container .row2 form input[type="email"] {
+  background-color: hsla(0, 0%, 100%, 0.2);
+  width: 124px;
+  height: 60px;
+}
+footer hr {
+  opacity: 0.5;
+}
+
+.social-icons {
+  display: flex;
+}
+
+.social-icons img {
+  width: 30px;
+  margin-right: 10px;
+}
+.col-3 {
+  color: white;
+}
+.contaainer .row2 .col-3 span {
+  font-weight: bold;
+}
+.container .row2 .logo-column img {
+  margin-bottom: 100px;
+}
+.row2 .col-6 .copyright {
+  color: white;
+}
+.row2 .col-6 .copyright a {
+  color: #ffcf48;
+  text-decoration: none;
+}
